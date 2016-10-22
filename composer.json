@@ -1,0 +1,25 @@
+{
+    "name": "e2fletcher/payu-latam-php-payments-sdk",
+    "description": "PayU Latam PHP SDK for the Payments API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ender Fletcher",
+            "email": "e2fletcher@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.2.1",
+      "ext-curl": "*",
+      "ext-xml": "*",
+      "ext-mbstring": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/PayU.php"
+        ]
+
+    }
+}
