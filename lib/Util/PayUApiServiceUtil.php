@@ -4,7 +4,7 @@ use PayuSDK\PayU;
 use PayuSDK\Api\PayUHttpRequestInfo;
 use PayuSDK\Api\PayUConfig;
 use PayuSDK\Api\PayUResponseCode;
-use PayuSDK\Util\Environment;
+use PayuSDK\Api\Environment;
 use PayuSDK\Exceptions\PayUException;
 use PayuSDK\Exceptions\PayUErrorCodes;
 
