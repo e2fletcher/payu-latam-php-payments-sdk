@@ -17,9 +17,9 @@
       "ext-json": "*"
     },
     "autoload": {
-        "classmap": [
-            "lib/PayU.php"
-        ]
+        "psr-4": {
+            "PayuSDK\\": "lib/"
+        }
 
     }
 }
