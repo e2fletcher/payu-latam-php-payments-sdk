@@ -8,7 +8,7 @@ use PayuSDK\Util\PayUParameters;
 //use PayuSDK\Api\PayUPaymentMethodType;
 //use PayuSDK\Util\RequestPaymentsUtil;
 use PayuSDK\Util\PayUSubscriptionsUrlResolver;
-//use PayuSDK\Util\PayUSubscriptionsRequestUtil;
+use PayuSDK\Util\PayUSubscriptionsRequestUtil;
 //use PayuSDK\Api\TransactionType;
 use PayuSDK\Util\PayUApiServiceUtil;
 

@@ -118,7 +118,7 @@ class PayUSubscriptionPlans{
 	 */
 	public static function listPlans($parameters, $lang = null){
 
-		$request = new stdClass();
+		$request = new \stdClass();
 		$request->accountId = CommonRequestUtil::getParameter($parameters, PayUParameters::ACCOUNT_ID);
 		$request->limit = CommonRequestUtil::getParameter($parameters, PayUParameters::LIMIT);
 		$request->offset = CommonRequestUtil::getParameter($parameters, PayUParameters::OFFSET);

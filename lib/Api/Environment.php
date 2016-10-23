@@ -66,7 +66,7 @@ class Environment {
 			case Environment::SUBSCRIPTIONS_API:
 				return Environment::getSubscriptionUrl();
 			default:
-				throw new InvalidArgumentException(sprintf('the api argument [%s] is invalid please check the Environment class ' ,$api));
+				throw new \InvalidArgumentException(sprintf('the api argument [%s] is invalid please check the Environment class ' ,$api));
 		}
 	}
 

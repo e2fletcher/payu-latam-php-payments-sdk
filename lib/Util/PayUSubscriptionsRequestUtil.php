@@ -1,7 +1,7 @@
 <?php namespace PayuSDK\Util;
 
 use PayuSDK\PayU;
-use PayuSDK\Api\Enviroment;
+use PayuSDK\Api\Environment;
 use PayuSDK\Api\PayUHttpRequestInfo;
 use PayuSDK\Api\PayUConfig;
 use PayuSDK\Api\PayUKeyMapName;
