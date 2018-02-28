@@ -271,6 +271,11 @@ class PayUParameters {
 	 * The confirmation page URL 
 	 */
 	const  NOTIFY_URL = "notifyUrl";
+    
+	/** 
+	 * partnerID within PayU.
+	 */
+	const  PARTNER_ID = "partnerId";    
 	
 	/** 
 	 * The response page URL 

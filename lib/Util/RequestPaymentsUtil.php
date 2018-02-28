@@ -180,6 +180,10 @@ class RequestPaymentsUtil extends CommonRequestUtil{
 			}
 
 			$transaction->order->buyer = RequestPaymentsUtil::buildBuyer($parameters);
+            
+			if(CommonRequestUtil::getParameter($parameters, PayUParameters::PARTNER_ID) != null){
+				$transaction->order->partnerId = CommonRequestUtil::getParameter($parameters, PayUParameters::PARTNER_ID);
+			}
 
 			if(CommonRequestUtil::getParameter($parameters, PayUParameters::IP_ADDRESS) != null){
 				$transaction->ipAddress = CommonRequestUtil::getParameter($parameters, PayUParameters::IP_ADDRESS);
